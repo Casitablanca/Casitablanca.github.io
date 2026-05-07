@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Casa Vacacional | Reserva Ahora</title>
+    <style>
+        /* ... (tus estilos anteriores se mantienen) ... */
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; color: #333; line-height: 1.6; }
+        header { background: #f8f8f8; text-align: center; padding: 60px 20px; }
+        .container { max-width: 800px; margin: auto; padding: 20px; text-align: center; }
+        
+        .features { display: flex; justify-content: space-around; margin: 40px 0; flex-wrap: wrap; }
+        .feature-item { flex: 1; min-width: 200px; margin: 10px; }
+        
+        .btn-airbnb { 
+            display: inline-block; 
+            background-color: #FF5A5F; 
+            color: white; 
+            padding: 20px 40px; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 1.2rem; 
+            border-radius: 8px; 
+            transition: transform 0.2s;
+            margin: 30px 0;
+        }
+        .btn-airbnb:hover { transform: scale(1.05); background-color: #E31C5F; }
+
+        /* Estilos para el Mapa */
+        .map-container {
+            margin: 40px 0;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: 0;
+        }
+
+        footer { margin-top: 50px; font-size: 0.9rem; color: #888; border-top: 1px solid #eee; padding: 20px; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <a data-flickr-embed="true" href="https://www.flickr.com/photos/204624245@N08/55255689479/" title="Casita Blanca"><img src="https://live.staticflickr.com/65535/55255689479_4c493f1225.jpg" width="100%" style="border-radius:12px;" alt="Casita Blanca"/></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
+        
+        <h1>Escapada Perfecta en Manzanillo del Mar</h1>
+        <p>Disfruta de la tranquilidad y el confort en nuestro alojamiento.</p>
+        
+        <div class="features">
+            <div class="feature-item">📍 <strong>Ubicación Top</strong><br>Manzanillo del Mar</div>
+            <div class="feature-item">📶 <strong>WiFi Veloz</strong><br>Fibra óptica</div>
+            <div class="feature-item">🧼 <strong>Limpieza Pro</strong><br>Protocolos COVID-free</div>
+        </div>
+
+        <h3>Nuestra Ubicación</h3>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2896.1323768015973!2d-75.49932892664843!3d10.516126463944547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef63b9871140151%3A0x3e14dbd8629a6bd4!2sCasita%20Blanca%20Manzanillo%20del%20Mar!5e1!3m2!1ses!2sfr!4v1778185924565!5m2!1ses!2sfr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <a href="https://www.airbnb.fr/rooms/779198709421736710" target="_blank" class="btn-airbnb">
+            📅 Ver Disponibilidad en Airbnb
+        </a>
+    </div>
+</header>
+
+<footer>
+    <p>&copy; 2026 Casita Blanca Manzanillo del Mar - Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
